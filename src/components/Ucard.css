@@ -1,0 +1,137 @@
+#slider {
+    margin: 0 auto;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 3rem;
+ }
+ #slider input[type=radio] {
+    display: none;
+ }
+ #slider label {
+    cursor:pointer;
+    text-decoration: none;
+ }
+ #slides {
+    padding: 10px;
+    border: 3px solid rgb(216, 212, 212);
+    background: rgb(98, 95, 95);
+    position: relative;
+    z-index: 1;
+ }
+ #overflow {
+    width: 100%;
+    overflow: hidden;
+ }
+ #slide17:checked ~ #slides .inner {
+    margin-left: 0;
+ }
+ #slide18:checked ~ #slides .inner {
+    margin-left: -100%;
+ }
+ #slide19:checked ~ #slides .inner {
+    margin-left: -200%;
+ }
+ #slide20:checked ~ #slides .inner {
+    margin-left: -300%;
+ }
+ #slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+ }
+ #slides .slide {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: whitesmoke;
+ }
+ #slides .slide_17 {
+    background: url("B17.jpg") no-repeat;
+    background-position: center;
+ }
+ #slides .slide_18 {
+   background: url("B18.jpg") no-repeat;
+   background-position: center;
+ }
+ #slides .slide_19 {
+   background: url("B19.jpg") no-repeat;
+   background-position: center;
+ }
+ #slides .slide_20 {
+   background: url("B20.jpg") no-repeat;
+   background-position: center;
+ }
+ #controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+ }
+ #controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+ }
+ #controls label:hover {
+    opacity: 1;
+ }
+ #slide17:checked ~ #controls label:nth-child(18),
+ #slide18:checked ~ #controls label:nth-child(19),
+ #slide19:checked ~ #controls label:nth-child(20),
+ #slide20:checked ~ #controls label:nth-child(17) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+ }
+ #slide17:checked ~ #controls label:nth-last-child(18),
+ #slide18:checked ~ #controls label:nth-last-child(19),
+ #slide19:checked ~ #controls label:nth-last-child(20),
+ #slide20:checked ~ #controls label:nth-last-child(17) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+ }
+ #bullets {
+    margin: 180px 0 0 ;
+    text-align: center;
+ }
+ #bullets label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius:100%;
+    background:black;
+    margin: 0 10px;
+ }
+ #slide17:checked ~ #bullets label:nth-child(17),
+ #slide18:checked ~ #bullets label:nth-child(18),
+ #slide19:checked ~ #bullets label:nth-child(19),
+ #slide20:checked ~ #bullets label:nth-child(20) {
+    background: #444;
+ }
+ @media screen and (max-width: 900px) {
+    #slide17:checked ~ #controls label:nth-child(18),
+    #slide18:checked ~ #controls label:nth-child(19),
+    #slide19:checked ~ #controls label:nth-child(20),
+    #slide20:checked ~ #controls label:nth-child(17),
+    #slide17:checked ~ #controls label:nth-last-child(18),
+    #slide18:checked ~ #controls label:nth-last-child(19),
+    #slide19:checked ~ #controls label:nth-last-child(20),
+    #slide20:checked ~ #controls label:nth-last-child(17) {
+       margin: 0;
+    }
+    #slides {
+       max-width: calc(100% - 140px);
+       margin: 0 auto;
+    }
+ }
