@@ -17,7 +17,7 @@
 ## 📸 Screenshots
 <br>
 <div class="row">
-   <p> <img src="https://github.com/U-c0de/Press-Services-React-Website/blob/main/Screenshots/Screenshot%20(15).png" alt="13"  width="280" height="180" border="4">&nbsp;<img src="https://github.com/U-c0de/Press-Services-React-Website/blob/main/Screenshots/Screenshot%20(14).png" alt="11"  width="260" height="180" border="4">&nbsp;<img src="https://github.com/U-c0de/Press-Services-React-Website/blob/main/Screenshots/Screenshot%20(15).png" alt="12"  width="270" height="180" border="10"></p>
+   <p> <img src="https://github.com/U-c0de/Press-Services-React-Website/blob/main/Screenshots/Screenshot%20(15).png" alt="13"  width="280" height="180" border="4">&nbsp;<img src="https://github.com/U-c0de/Press-Services-React-Website/blob/main/Screenshots/Screenshot%20(14).png" alt="11"  width="260" height="180" border="4">&nbsp;<img src="https://github.com/U-c0de/Press-Services-React-Website/blob/main/Screenshots/Screenshot%20(13).png" alt="12"  width="270" height="180" border="10"></p>
     </div>
 <br>
 
