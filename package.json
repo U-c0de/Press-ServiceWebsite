@@ -1,4 +1,5 @@
 {
+  "homepage": "http://U-c0de.github.io/Press-Services-React-Website",
   "name": "test1",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "emailjs-com": "^2.6.4",
+    "node-modules": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-elastic-carousel": "^0.11.5",
@@ -17,6 +19,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
