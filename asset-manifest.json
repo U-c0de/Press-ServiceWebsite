@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Press-Services-React-Website/static/css/main.e9c44ca3.chunk.css",
+    "main.js": "/Press-Services-React-Website/static/js/main.31d0e8b4.chunk.js",
+    "main.js.map": "/Press-Services-React-Website/static/js/main.31d0e8b4.chunk.js.map",
+    "runtime-main.js": "/Press-Services-React-Website/static/js/runtime-main.44566a39.js",
+    "runtime-main.js.map": "/Press-Services-React-Website/static/js/runtime-main.44566a39.js.map",
+    "static/js/2.fdd5aabb.chunk.js": "/Press-Services-React-Website/static/js/2.fdd5aabb.chunk.js",
+    "static/js/2.fdd5aabb.chunk.js.map": "/Press-Services-React-Website/static/js/2.fdd5aabb.chunk.js.map",
+    "index.html": "/Press-Services-React-Website/index.html",
+    "static/css/main.e9c44ca3.chunk.css.map": "/Press-Services-React-Website/static/css/main.e9c44ca3.chunk.css.map",
+    "static/js/2.fdd5aabb.chunk.js.LICENSE.txt": "/Press-Services-React-Website/static/js/2.fdd5aabb.chunk.js.LICENSE.txt",
+    "static/media/Bcard.css": "/Press-Services-React-Website/static/media/B4.1add886f.jpg",
+    "static/media/Rcard.css": "/Press-Services-React-Website/static/media/B9.32762473.jpg",
+    "static/media/Pcard.css": "/Press-Services-React-Website/static/media/B16.492fe33e.jpg",
+    "static/media/Ucard.css": "/Press-Services-React-Website/static/media/B20.02dc18a5.jpg",
+    "static/media/Ccard.css": "/Press-Services-React-Website/static/media/B24.993b24b1.jpg",
+    "static/media/Lcard.css": "/Press-Services-React-Website/static/media/B8.079b6c22.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44566a39.js",
+    "static/js/2.fdd5aabb.chunk.js",
+    "static/css/main.e9c44ca3.chunk.css",
+    "static/js/main.31d0e8b4.chunk.js"
+  ]
+}
