@@ -13,6 +13,7 @@ import Publications from './components/pages/Publications'
 import Campaign from './components/pages/Campaign'
 
 
+
 function App() {
   return (
     <>
@@ -20,7 +21,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/Press-Services-React-Website' component={Home} />
+          <Route path='/PressServices' component={Home} />
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
           <Route path='/ID' component={ID}/>

@@ -71,6 +71,12 @@ h1 {
   box-sizing: border-box;
 }
 
+.CardItem.text{
+  font-size: 900000px  ;
+  align-content: left;
+
+}
+
 .cards__item__img {
   position: absolute;
   top: 0;
