@@ -23,7 +23,7 @@
 
 ## 👋🏻 Walkthrough
 
-1. Install all of the dependencies.
+1. Install all the dependencies.
  
 ```
 npm install node-modules --save
